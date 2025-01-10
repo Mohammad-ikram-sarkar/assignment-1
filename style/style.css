@@ -1,1 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+header {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 10px;
+}
 
+.btn{
+   padding-left:30px;
+   padding-right: 30px;
+   padding-bottom: 15px;
+   padding-top: 15px;
+   border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+ transition: 0.2s ease-in-out;
+}
+.btn:hover{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+}
+
+.Banner-Section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 10px;
+}
+
+.img img{
+ width: 474.03px;
+height: 329.21px;
+}
+.Banner-Section {
+ border-radius: 24px;
+
+background: rgb(198, 228, 214);
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 80px;
+padding-top: 80px;
+}
+.bttn{
+  border-radius: 8px;
+
+background: rgb(0, 106, 80);
+padding: 10px;
+border: none;
+margin-top: 10px;
+color: white;
+}
+
+.Banner-Section h1{
+  font-size: 56px;
+font-weight: 700;
+}
+.Pillars{
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.Pillars h1{
+  
+   margin-top: 80px;
+   margin-bottom: 32px;
+   font-size: 40px;
+font-weight: 700;
+ 
+}
+
+ .group-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-bottom: 10rem;
+ 
+  
+}
+.group-card .card{
+   box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+
+
+padding: 24px;
+}
+.card h2{ 
+  margin: 8px;
+
+}
+
+ .Vision{
+    margin-left: 160px;
+  margin-right: 160px;
+
+  margin-bottom: 200px;
+ }
+ .vistion h1{
+    font-size: 40px;
+font-weight: 700;
+ }
+.group-cards{
+  display: flex;
+ 
+  gap: 2rem;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+
+
+ 
+
+
+}
+.group-cards .card{
+  border: 2px solid black;
+
+  
+   width: 410.67px;
+height: 325px;
+}
+
+.Vision h1{
+   font-size: 40px;
+font-weight: 700;
+
+ margin-bottom: 24px;
+}
+
+.group-cards .card img,p{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.group-cards .card h2{
+   margin-left: 20px;
+  margin-top: 20px;
+}
+.group-cards .card .btn-groups{
+   margin-left: 20px;
+  margin-top: 20px;
+
+  padding: 11px 20px;
+}
+
+.group-cards .text-1{
+ box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+border: none;
+}
+.group-cards .text-1 .btn-groups{
+  border-radius: 8px;
+background: rgb(84, 144, 245);
+border: none;
+}
+
+.group-cards .text-2{
+  box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+border: none;
+ 
+}
+.group-cards .text-2 .btn-groups{
+  border-radius: 8px;
+
+background: rgb(9, 161, 92);
+border: none;
+}
+.group-cards .text-3{
+  box-sizing: border-box;
+  border-radius: 16px;
+
+background: rgb(247, 235, 207);
+border: none;
+}
+.group-cards .text-3 btn-groups{
+  border-radius: 8px;
+
+background: rgb(255, 194, 57);
+border: none;
+}
