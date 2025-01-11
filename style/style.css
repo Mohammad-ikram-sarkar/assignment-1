@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  
+  background-color: F1F1F3;
 }
 header {
   display:flex;
@@ -104,60 +104,52 @@ padding: 24px;
   margin-right: 160px;
 
   margin-bottom: 200px;
- }
- .vistion h1{
-    font-size: 40px;
-font-weight: 700;
- }
-.group-cards{
-  display: flex;
- 
-  gap: 2rem;
-  justify-content: space-between;
-
-  margin-top: 2rem;
-
-
- 
-
-
-}
-.group-cards .card{
-  border: 2px solid black;
-
   
-   width: 410.67px;
-height: 325px;
-}
+ }
+ .Vision  h1{
+   font-size:40px;
+   font-weight: 700;
 
-.Vision h1{
-   font-size: 40px;
-font-weight: 700;
-
- margin-bottom: 24px;
-}
-
-.group-cards .card img,p{
-  margin-left: 20px;
-  margin-top: 20px;
-}
-.group-cards .card h2{
-   margin-left: 20px;
-  margin-top: 20px;
-}
-.group-cards .card .btn-groups{
-   margin-left: 20px;
-  margin-top: 20px;
+ }
+ .Vision p{
+  margin-left: -0.9px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 10px;
+ }
+ .group-cards{
+  display: flex;
+  gap: 24px;
+   align-items: center;
+   justify-content: space-around;
+   
+ }
+ .group-cards .card{
+  padding: 32px;
+  height: 325px;
+  
+ }
+ .card .btn-groups{
 
   padding: 11px 20px;
-}
-
+ }
+  
 .group-cards .text-1{
  box-sizing: border-box;
 border-radius: 16px;
 background: rgba(84, 144, 245, 0.2);
 border: none;
 }
+.card img,p,.btn-groups{
+  margin-left: 32px;
+}
+.card h2{
+  margin:32px
+}
+
+
 .group-cards .text-1 .btn-groups{
   border-radius: 8px;
 background: rgb(84, 144, 245);
@@ -185,9 +177,260 @@ border: none;
 background: rgb(247, 235, 207);
 border: none;
 }
-.group-cards .text-3 btn-groups{
+.group-cards .text-3 .btn-groups{
   border-radius: 8px;
 
 background: rgb(255, 194, 57);
 border: none;
+}
+
+
+
+.Yunus-bhai{
+   
+ 
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+  margin-top: 32px ;
+  
+width: 100%;
+
+}
+.Yunus-bhai h3{
+  margin: 24px;
+}
+.Yunus-bhai p{
+  margin: 24px;
+  font-size: 16px;
+font-weight: 400;
+color: rgba(14, 14, 14, 0.8);
+
+}
+
+.Yunus-bhai{
+ background-image: url(../img/quote-bg.png);
+ background-repeat: no-repeat;
+ background-position: 25px top;
+}
+
+
+.table {
+    
+    margin-bottom: 50px;
+}
+
+.table h1 {
+   
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 16px;
+    overflow: hidden;
+   
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;   
+}
+tr th{
+ background: rgb(198, 228, 214);
+}
+tr td:nth-child(2){
+   margin: auto;
+   
+
+}
+th {
+    
+    font-weight: 600;
+}
+
+tr td{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+}
+td:nth-child(td){
+  width: 1017px
+}
+
+select {
+  
+  
+    border: 1px solid rgba(0, 106, 80, 0.3);
+    border-radius: 6px;
+  background: rgb(198, 228, 214);
+    font-size: 14px;
+    text-align: center;
+   
+    padding: 10px;
+}
+
+.news-contant{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 24px;
+background: rgb(255, 255, 255);
+border: 2px solid black;
+padding: 20px;
+  margin-bottom: 24px;
+}
+
+.news-contant img{
+ width: 408px;
+height: 306px;
+}
+.news-contant .time{
+  display: flex;
+  gap: 2rem;
+
+}
+.news-contant .text-contant{
+  margin-top: -120px;
+  position: relative;
+}
+.news-contant .img img{
+  width: 408px;
+height: 306px;
+border-radius: 24px;
+
+
+}
+
+.news-contant  .text-contant h1{
+  font-size: 32px;
+font-weight: 700;
+}
+.time{
+  background-image: url(../img/al-jazeera.png);
+  background-repeat: no-repeat;
+
+}
+.time p{
+  margin-top: 50px;
+
+}
+.text-contant .btn-groups{
+   padding: 11px 24px;
+   border-radius: 8px;
+
+   background: rgb(0, 106, 80);
+   position: absolute;
+   margin-top: 40px;
+   margin-left: -5px;
+   border:none;
+   color:white;
+   
+}
+
+.Donate{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 160px ;
+  margin-right: 160px;
+}
+ 
+.Donate .heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.taka{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  color: rgba(14, 14, 14, 0.8);
+
+}
+.taka > h1{
+  padding: 40px;
+  border-radius: 16px;
+  border: 2px solid black;
+  
+  margin: 32px 0px;
+  
+
+}
+.taka > h1:nth-child(2){
+  
+background: rgb(198, 228, 214);
+}
+.heading .p{
+  font-size: 16px;
+font-weight: 400;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.input input:nth-child(1){
+   text-align: center;
+   padding:20px 210px;
+   width: 100%;
+   color: rgba(14, 14, 14, 0.3);
+  font-weight: 400;
+line-height: 24px;
+
+}
+
+.input input:nth-child(2){
+ 
+  padding: 17px 34px;
+
+  margin-top: 32px;
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+color: white;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  background: rgb(198, 228, 214);
+  margin: 24px auto;
+  padding: 80px 100px;
+}
+
+.newsletter .text{
+ display: flex;  
+ 
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.text p {
+  margin: 30px auto;
+}
+
+.newsletter .inputs:nth-child(1){
+   width: 100px;
+   
 }
