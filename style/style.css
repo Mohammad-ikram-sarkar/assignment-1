@@ -429,8 +429,29 @@ color: white;
 .text p {
   margin: 30px auto;
 }
+.newsletter .inputs{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: row;
+}
 
-.newsletter .inputs:nth-child(1){
-   width: 100px;
+
+.newsletter .inputs input[type= "email"]{
+  padding:17px 10px;
+  width: 600px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
    
+}
+.newsletter .inputs button[type="submit"]{
+  padding: 17px 10px;
+
+   width: 110px;
+   border-radius: 0px 8px 8px 0px;
+
+   background: rgb(0, 106, 80);
+   border: none;
+   color: white;
+ 
 }
