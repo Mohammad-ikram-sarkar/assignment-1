@@ -1,9 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
+
+
   margin: 0;
   padding: 0;
 }
 body{
   background-color: #f5f5f5;
+   font-family: "Work Sans", serif;
 }
 
  
@@ -13,7 +19,17 @@ header {
   justify-content: space-between;
   margin-left: 160px;
   margin-right: 160px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header h3{
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 32px;
+  transition: 0.3s ease-in-out;
+}
+header h3:hover{
+  transform: scale(1.1);
 }
 
 .btn{
@@ -28,6 +44,8 @@ border-radius: 8px;
 .btn:hover{
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 20px gray;
+  
   
 }
 
@@ -57,15 +75,27 @@ padding-top: 80px;
   border-radius: 8px;
 
 background: rgb(0, 106, 80);
-padding: 10px;
+padding: 17px 34px;
 border: none;
-margin-top: 10px;
+margin-top: 20px;
 color: white;
+font-size: 18px;
+font-weight: 600;
+transition: 0.3s ease-in-out;
+}
+.bttn:hover{
+  background-color: white;
+  color: black;
+
 }
 
 .Banner-Section h1{
   font-size: 56px;
 font-weight: 700;
+}
+.Banner-Section p{
+  font-size: 24px;
+font-weight: 500;
 }
 .Pillars{
   margin-left: 160px;
@@ -89,6 +119,7 @@ font-weight: 700;
  
   
 }
+
 .group-card .card{
    box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
@@ -97,6 +128,12 @@ background: rgb(255, 255, 255);
 
 
 padding: 24px;
+transition: 0.3s ease-in-out;
+}
+ .group-card .card:hover{
+   background: rgb(0, 106, 80);
+   color: white;
+
 }
 .card h2{ 
   margin: 8px;
@@ -135,10 +172,15 @@ margin-bottom: 10px;
   height: 325px;
   
  }
+ .group-cards .card:hover{
+   
+   
+ }
  .card .btn-groups{
 
   padding: 11px 20px;
  }
+ 
   
 .group-cards .text-1{
  box-sizing: border-box;
@@ -146,18 +188,30 @@ border-radius: 16px;
 background: rgba(84, 144, 245, 0.2);
 border: none;
 }
-.card img,p,.btn-groups{
+.card img,.btn-groups{
   margin-left: 32px;
 }
 .card h2{
   margin:32px
 }
-
+.card p{
+  margin-left: 32px;
+  margin-bottom: 20px;
+}
 
 .group-cards .text-1 .btn-groups{
   border-radius: 8px;
-background: rgb(84, 144, 245);
-border: none;
+  background: rgb(84, 144, 245);
+  border: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+
+  
+}
+.group-cards .text-1 .btn-groups:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
 }
 
 .group-cards .text-2{
@@ -170,9 +224,17 @@ border: none;
 }
 .group-cards .text-2 .btn-groups{
   border-radius: 8px;
+  color: white;
+
 
 background: rgb(9, 161, 92);
 border: none;
+ transition: 0.3s ease-in-out;
+}
+.group-cards .text-2 .btn-groups:hover{
+  background-color: white;
+  color: black;
+   border: 1px solid gray;
 }
 .group-cards .text-3{
   box-sizing: border-box;
@@ -186,8 +248,21 @@ border: none;
 
 background: rgb(255, 194, 57);
 border: none;
+color: white;
+transition: 0.2s ease-in-out;
 }
-
+.group-cards .text-3 .btn-groups:hover{
+   background-color: white;
+   color: black;
+    border: 1px solid gray;
+}
+ .group-cards .card{
+  transition: 0.3s ease-in-out;
+ }
+.group-cards .card:hover{
+  background-color: white;
+  
+}
 
 
 .Yunus-bhai{
@@ -200,7 +275,8 @@ background: rgb(255, 255, 255);
   margin-top: 32px ;
   
 width: 100%;
-
+ margin: 32px 0;
+ 
 }
 .Yunus-bhai h3{
   margin: 24px;
@@ -210,14 +286,17 @@ width: 100%;
   font-size: 16px;
 font-weight: 400;
 color: rgba(14, 14, 14, 0.8);
+padding-top: 32px;
 
 }
 
 .Yunus-bhai{
  background-image: url(../img/quote-bg.png);
  background-repeat: no-repeat;
- background-position: 25px top;
+ background-position-x:25px ;
+ background-position-y:30px;
 }
+.
 
 
 .table {
@@ -237,7 +316,7 @@ table {
     border-collapse: collapse;
     border-radius: 16px;
     overflow: hidden;
-   
+    margin-bottom: 30px;
 }
 
 th, td {
@@ -247,10 +326,15 @@ th, td {
 tr th{
  background: rgb(198, 228, 214);
 }
-tr td:nth-child(2){
-   margin: auto;
+td:last-child{
+   
+   text-align: center;
+
    
 
+}
+td:first-child{
+  width: 100%;
 }
 th {
     
@@ -285,7 +369,7 @@ select {
   gap: 2rem;
   border-radius: 24px;
 background: rgb(255, 255, 255);
-border: 2px solid black;
+
 padding: 20px;
   margin-bottom: 24px;
 }
@@ -334,7 +418,13 @@ font-weight: 700;
    margin-left: -5px;
    border:none;
    color:white;
+   transition: 0.2s ease-in-out;
    
+}
+.text-contant .btn-groups:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
 }
 
 .Donate{
@@ -369,12 +459,18 @@ font-weight: 700;
   border: 2px solid black;
   
   margin: 32px 0px;
-  
+  transition: 0.2s ease-in-out;
 
+}
+.taka >h1:hover{
+  background-color: aquamarine;
 }
 .taka > h1:nth-child(2){
   
 background: rgb(198, 228, 214);
+}
+.taka >h1:nth-child(2):hover{
+ background-color: aquamarine;
 }
 .heading .p{
   font-size: 16px;
@@ -398,7 +494,7 @@ line-height: 24px;
 
 }
 
-.input input:nth-child(2){
+.input button{
  
   padding: 17px 34px;
 
@@ -409,6 +505,12 @@ border-radius: 8px;
 
 background: rgb(0, 106, 80);
 color: white;
+transition: 0.3s ease-in-out;
+}
+.input button:hover{
+  background-color: white;
+  color: black;
+
 }
 
 .newsletter{
@@ -419,6 +521,7 @@ color: white;
   background: rgb(198, 228, 214);
   margin: 24px auto;
   padding: 80px 100px;
+ border-radius: 24px;
 }
 
 .newsletter .text{
@@ -457,7 +560,13 @@ color: white;
    background: rgb(0, 106, 80);
    border: none;
    color: white;
+   transition: 0.3s ease-in-out;
  
+}
+.newsletter .inputs button[type="submit"]:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
 }
 
 
@@ -472,6 +581,30 @@ footer{
   gap: 2rem;
 }
 
-footer{
+footer .icon{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 3rem;
+}
 
+.icon .ri-facebook-circle-fill{
+ background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%,rgb(0, 106, 255) 104.264%);
+  background-clip: text;
+  color: transparent;
+  
+  transition:  0.3s ease-in-out;
+}
+.icon .ri-facebook-circle-fill:hover{
+  transform: scale(2.1);
+}
+
+.icon .ri-instagram-line{
+  
+  /* background-clip: text;
+  color: transparent;
+  transition: 0.3s ease-in-out;
+} */
+.icon .ri-instagram-line:hover{
+  transform: scale(2.1);
 }
